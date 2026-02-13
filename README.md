@@ -58,6 +58,8 @@ python3 /home/lsharkey/bigscape/BiG-SCAPE-1.1.9/bigscape.py \
 
 # Make report that combines Prokka, panaroo, antiSMASH and BiG-SCAPE data
 ```
+/home/buultjensa/arc_nocardia_omics/copy_of_antismash/antismash_bgc_locus_report.py
+
 python antismash_bgc_locus_report.py \ gene_presence_absence.csv \
 fofn.txt \
 --antismash_dir [dir] \
