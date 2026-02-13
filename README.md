@@ -4,15 +4,15 @@ Code used to link genes involved in secondary metabolism to molecules of interes
 # Antismash command:
 ```
 antismash \
-  --genefinding-tool prodigal \
-  --cc-mibig \
-  --cb-general \
-  --cb-subcluster \
-  --cb-knownclusters \
-  --rre \
-  --cpus 6 \
+--genefinding-tool prodigal \
+--cc-mibig \
+--cb-general \
+--cb-subcluster \
+--cb-knownclusters \
+--rre \
+--cpus 6 \
 /home/lsharkey/Projects/22_ARC_Project_Home/Genomics/prokka_annotated/Prokka_Output_240125/SP0585/SP0585.gbk \
-  --output-dir SP0585
+--output-dir SP0585
 ```
 
 # Panaroo command:
