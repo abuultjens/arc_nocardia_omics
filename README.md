@@ -1,7 +1,17 @@
 # arc_nocardia_omics
 Code used to link genes involved in secondary metabolism to molecules of interest
 
-# Antismash command:
+# Prokka command:
+```
+prokka --outdir ./Prokka_Output_240125/SP0129 \
+--prefix SP0129 \
+--locustag SP0129 \
+/home/lsharkey/Projects/16_NocardiaGenomes/ARC_Strains/Jan_2025/Best_assemblies_compiled//SP0129.fasta \
+--cpus 50 \
+--genus nocardia
+```
+
+# antiSMASH command:
 ```
 antismash \
 --genefinding-tool prodigal \
@@ -29,7 +39,7 @@ panaroo -i *.gff \
 check_for_expression_v2.py
 ```
 
-# Bigscape command:
+# BiG-SCAPE command:
 ```
 python3 /home/lsharkey/bigscape/BiG-SCAPE-1.1.9/bigscape.py \
 -i /home/buultjensa/arc_nocardia_omics/copy_of_antismash \
@@ -41,7 +51,7 @@ python3 /home/lsharkey/bigscape/BiG-SCAPE-1.1.9/bigscape.py \
 --clans-off
 ```
 
-# Make report that combines prokka, panaroo, antismash and bigscape data
+# Make report that combines Prokka, panaroo, antiSMASH and BiG-SCAPE data
 ```
 python antismash_bgc_locus_report.py \ gene_presence_absence.csv \
 fofn.txt \
