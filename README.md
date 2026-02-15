@@ -1,6 +1,30 @@
 # arc_nocardia_omics
 Code used to link genes involved in secondary metabolism to molecules of interest
 
+# Files for further analysis:
+
+### Labels
+```
+/home/buultjensa/arc_nocardia_omics/ML/label_outputs/
+```
+
+### Bigscape feature table
+```
+/home/buultjensa/arc_nocardia_omics/ML/128_strain_by_family_matrix.tr.csv
+```
+
+### Panaroo feature table
+```
+/home/buultjensa/arc_nocardia_omics/prokka_gff/154_gff/WO-SP0042/WO-subtree/WO-subtree_WO-647/panaroo_test_c-0.98/gene_presence_absence.csv
+```
+
+### Panaroo expression checked feature table
+```
+/home/buultjensa/arc_nocardia_omics/prokka_gff/154_gff/WO-SP0042/WO-subtree/WO-subtree_WO-647/panaroo_test_c-0.98/142_panaroo_expression_checked.csv
+```
+
+--------------------------------------------------------------------------
+
 # Prokka command:
 ```
 prokka --outdir ./Prokka_Output_240125/SP0129 \
@@ -36,7 +60,7 @@ panaroo -i *.gff \
 
 # Check pangenome matrix for evidence of expression
 ```
-/home/buultjensa/arc_nocardia_omics//prokka_gff/154_gff/5_isolates/expression-check/check_for_expression_v2.py
+/home/buultjensa/arc_nocardia_omics/prokka_gff/154_gff/WO-SP0042/WO-subtree/WO-subtree_WO-647/panaroo_test_c-0.98/check_for_expression_v2.py
 check_for_expression_v2.py
 ```
 
