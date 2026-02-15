@@ -8,7 +8,7 @@ Code used to link genes involved in secondary metabolism to molecules of interes
 /home/buultjensa/arc_nocardia_omics/ML/label_outputs/
 ```
 
-### Bigscape feature table
+### BiG-SCAPE feature table
 ```
 /home/buultjensa/arc_nocardia_omics/ML/128_strain_by_family_matrix.tr.csv
 ```
@@ -21,6 +21,11 @@ Code used to link genes involved in secondary metabolism to molecules of interes
 ### Panaroo expression checked feature table
 ```
 /home/buultjensa/arc_nocardia_omics/prokka_gff/154_gff/WO-SP0042/WO-subtree/WO-subtree_WO-647/panaroo_test_c-0.98/142_panaroo_expression_checked.csv
+```
+
+### Reports that link Panaroo and antiSMASH annotations with Panaroo and BiG-SCAPE clusters:
+```
+/home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/antismash_bgc_locus_report
 ```
 
 --------------------------------------------------------------------------
