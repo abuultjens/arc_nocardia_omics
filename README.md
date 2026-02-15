@@ -36,6 +36,7 @@ panaroo -i *.gff \
 
 # Check pangenome matrix for evidence of expression
 ```
+/home/buultjensa/arc_nocardia_omics//prokka_gff/154_gff/5_isolates/expression-check/check_for_expression_v2.py
 check_for_expression_v2.py
 ```
 
