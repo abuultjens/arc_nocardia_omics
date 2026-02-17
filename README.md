@@ -55,9 +55,16 @@ panaroo -i *.gff \
 
 # Check pangenome matrix for evidence of expression
 ```
-/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/check_for_expression_v2.py
+python check_for_expression_v3.py \
+<pangenome_csv> \
+<tsv_glob_pattern> \
+<output_csv>
 
-check_for_expression_v2.py
+# Command used:
+python check_for_expression_v3.py \
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence.csv \
+/home/lsharkey/Projects/22_ARC_Project_Home/Proteomics/Full_dataset/outputs/output_080425/protein_tsvs/*301.tsv \
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked.csv
 ```
 
 # antiSMASH command:
@@ -92,18 +99,31 @@ python3 /home/lsharkey/bigscape/BiG-SCAPE-1.1.9/bigscape.py \
 
 # Convert BiG-SCAPE output to a feature table:
 ```
-/home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/make_strain_by_family_matrix_v2.py
+python make_strain_by_family_matrix_v3.py */*clustering_c0.30.tsv
+
+# Command used:
+python make_strain_by_family_matrix_v3.py \
+/home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/128_strain_by_family_matrix.csv \
+/home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/*/*clustering_c0.30.tsv
 ```
 
 # Make report that combines Prokka, panaroo, antiSMASH and BiG-SCAPE data
 ```
 /home/buultjensa/arc_nocardia_omics/copy_of_antismash/antismash_bgc_locus_report.py
 
-python antismash_bgc_locus_report.py \ gene_presence_absence.csv \
+python antismash_bgc_locus_report.py \
+gene_presence_absence.csv \
 fofn.txt \
 --antismash_dir [dir] \
 --bigscape_run_dir [dir] \
 --out_prefix [prefix]
+
+python antismash_bgc_locus_report.py \
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence.csv \
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/128_fofn.txt \
+--antismash_dir /home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/ \
+--bigscape_run_dir /home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/ \
+--out_prefix 128_antismash_bgc_locus_report
 ```
 
 
