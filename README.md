@@ -32,7 +32,7 @@ Code used to link genes involved in secondary metabolism to molecules of interes
 
 # Prokka command:
 ```
-# Prokka output folders: /home/lsharkey/Projects/22_ARC_Project_Home/Genomics/prokka_annotated/Prokka_Output_240125
+# Prokka output folders: /home/buultjensa/arc_nocardia_omics/prokka_gff/128
 
 prokka --outdir ./Prokka_Output_240125/SP0129 \
 --prefix SP0129 \
@@ -44,6 +44,8 @@ prokka --outdir ./Prokka_Output_240125/SP0129 \
 
 # Panaroo command:
 ```
+# Panaroo output folders: /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98
+
 panaroo -i *.gff \
 -o panaroo_test_c-0.98 \
 --threads 16 \
@@ -59,7 +61,7 @@ check_for_expression_v2.py
 
 # antiSMASH command:
 ```
-# Antismash output folders: /home/lsharkey/Projects/22_ARC_Project_Home/Genomics/antismash_folder/antismash_output_29032025
+# Antismash output folders: /home/buultjensa/arc_nocardia_omics/copy_of_antismash/128
 
 antismash \
 --genefinding-tool prodigal \
