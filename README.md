@@ -28,9 +28,9 @@ fofn.txt
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MATRIX.csv
 ```
 
-### Reports that link Panaroo and antiSMASH annotations with Panaroo and BiG-SCAPE clusters:
+### Report that link Panaroo and antiSMASH annotations with Panaroo and BiG-SCAPE clusters:
 ```
-/home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/antismash_bgc_locus_report
+/home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/antismash_bgc_locus_report/128_antismash_bgc_locus_report_isolate_region_locus.csv
 ```
 
 --------------------------------------------------------------------------
