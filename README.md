@@ -3,6 +3,11 @@ Code used to link genes involved in secondary metabolism to molecules of interes
 
 # Files for further analysis:
 
+### List of 128 isolates
+```
+fofn.txt
+```
+
 ### Labels
 ```
 /home/buultjensa/arc_nocardia_omics/ML/label_outputs/
@@ -13,12 +18,12 @@ Code used to link genes involved in secondary metabolism to molecules of interes
 /home/buultjensa/arc_nocardia_omics/ML/128_strain_by_family_matrix.tr.csv
 ```
 
-### Panaroo feature table
+### Panaroo feature table [n=150,747]
 ```
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence_MATRIX.csv
 ```
 
-### Panaroo expression checked feature table
+### Panaroo expression checked feature table [n=150,747]
 ```
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MATRIX.csv
 ```
