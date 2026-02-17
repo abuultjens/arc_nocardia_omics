@@ -8,7 +8,7 @@ Code used to link genes involved in secondary metabolism to molecules of interes
 fofn.txt
 ```
 
-### Labels
+### Label vector files
 ```
 /home/buultjensa/arc_nocardia_omics/ML/label_outputs/
 ```
