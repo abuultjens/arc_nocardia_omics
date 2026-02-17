@@ -65,7 +65,7 @@ python check_for_expression_v3.py \
 <tsv_glob_pattern> \
 <output_csv>
 
-# Command used:
+# Command used for 301 media:
 python check_for_expression_v3.py \
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence.csv \
 /home/lsharkey/Projects/22_ARC_Project_Home/Proteomics/Full_dataset/outputs/output_080425/protein_tsvs/*301.tsv \
@@ -114,8 +114,6 @@ python make_strain_by_family_matrix_v3.py \
 
 # Make report that combines Prokka, panaroo, antiSMASH and BiG-SCAPE data
 ```
-/home/buultjensa/arc_nocardia_omics/copy_of_antismash/antismash_bgc_locus_report.py
-
 python antismash_bgc_locus_report.py \
 gene_presence_absence.csv \
 fofn.txt \
@@ -123,6 +121,7 @@ fofn.txt \
 --bigscape_run_dir [dir] \
 --out_prefix [prefix]
 
+# Command used:
 python antismash_bgc_locus_report.py \
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence.csv \
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/128_fofn.txt \
