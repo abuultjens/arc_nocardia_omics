@@ -15,7 +15,7 @@ fofn.txt
 
 ### BiG-SCAPE feature table [n=1,053]
 ```
-/home/buultjensa/arc_nocardia_omics/ML/128_strain_by_family_matrix.tr.csv
+/home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/128_strain_by_family_matrix.tr.csv
 ```
 
 ### Panaroo feature table [n=150,747]
@@ -104,7 +104,9 @@ python3 /home/lsharkey/bigscape/BiG-SCAPE-1.1.9/bigscape.py \
 
 # Convert BiG-SCAPE output to a feature table:
 ```
-python make_strain_by_family_matrix_v3.py */*clustering_c0.30.tsv
+python make_strain_by_family_matrix_v3.py \
+outfile.csv \
+*/*clustering_c0.30.tsv
 
 # Command used:
 python make_strain_by_family_matrix_v3.py \
