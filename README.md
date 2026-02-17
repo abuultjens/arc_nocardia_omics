@@ -31,6 +31,13 @@ fofn.txt
 ### Report that link Panaroo and antiSMASH annotations with Panaroo and BiG-SCAPE clusters:
 ```
 /home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/antismash_bgc_locus_report/128_antismash_bgc_locus_report_isolate_region_locus.csv
+
+# Exampls:
+$ head -2 128_antismash_bgc_locus_report_isolate_region_locus.csv
+isolate,region_id,locus_tag,panaroo_gene_cluster,antismash_product_types,region_size_kb,bigscape_class,bigscape_family_number,bigscape_id
+SP0005,SP0005_contig_1.region001,SP0005_00152,group_770,T1PKS,45.205,PKSI,4590,PKSI_4590
+
+# Locus tag SP0005_00152 from isolate SP0005 is clustered into panaroo orthlog group group_770, is in antiSMASH region SP0005_contig_1.region001 of which is clustered into BiG-SCAPE gene cluster family PKSI_4590.
 ```
 
 --------------------------------------------------------------------------
