@@ -69,13 +69,13 @@ panaroo -i *.gff \
 ```
 python check_for_expression_v3.py \
 <pangenome_csv> \
-<tsv_glob_pattern> \
+'<glob_pattern>' \
 <output_csv>
 
 # Command used for 301 media:
 python check_for_expression_v3.py \
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence.csv \
-/home/lsharkey/Projects/22_ARC_Project_Home/Proteomics/Full_dataset/outputs/output_080425/protein_tsvs/*301.tsv \
+'/home/lsharkey/Projects/22_ARC_Project_Home/Proteomics/Full_dataset/outputs/output_080425/protein_tsvs/*301.tsv' \
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked.csv
 ```
 
