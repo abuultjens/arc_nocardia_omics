@@ -3,6 +3,11 @@ Code used to link genes involved in secondary metabolism to molecules of interes
 
 # Files for further analysis:
 
+### OneDrive data access link: [please email buultjensa@unimelb.edu.au to request access]
+```
+https://unimelbcloud-my.sharepoint.com/:f:/r/personal/buultjensa_unimelb_edu_au/Documents/arc_nocardia_omics?csf=1&web=1&e=gdEOui
+```
+
 ### List of 128 isolates
 ```
 fofn.txt
