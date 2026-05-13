@@ -23,12 +23,12 @@ fofn.txt
 /home/buultjensa/arc_nocardia_omics/copy_of_antismash/128/128_bigscape/network_files/2026-02-13_11-47-10_hybrids_glocal/128_strain_by_family_matrix.tr.csv
 ```
 
-### Panaroo feature table [n=150,747]
+### Panaroo feature table [n orthogroups=150,747, n locus tags=830,747]
 ```
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence_MATRIX.csv
 ```
 
-### Panaroo expression checked feature table [n=150,747]
+### Panaroo expression checked feature table [n orthogroups=150,747, n locus tags=216,677]
 ```
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MATRIX.csv
 ```
