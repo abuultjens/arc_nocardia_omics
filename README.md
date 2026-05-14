@@ -28,9 +28,24 @@ fofn.txt
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence_MATRIX.csv
 ```
 
-### Panaroo expression checked feature table [n orthogroups=150,747, n locus tags=216,677]
+### Panaroo expression checked feature table for media 301 [n orthogroups=150,747, n locus tags=216,677]
 ```
-/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MATRIX.csv
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MEDIA-301.csv
+```
+
+### Panaroo expression checked feature table for media A3M [n orthogroups=150,747, n locus tags=222,144]
+```
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MEDIA-A3M.csv
+```
+
+### Panaroo expression checked feature table for media ISP2 [n orthogroups=150,747, n locus tags=256,132]
+```
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MEDIA-ISP2.csv
+```
+
+### Panaroo expression checked feature table for all media (301, A3M and ISP2) [n orthogroups=150,747, n locus tags=330,769]
+```
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MEDIA-ALL-301-A3M-ISP2.csv
 ```
 
 ### Report that link Panaroo and antiSMASH annotations with Panaroo and BiG-SCAPE clusters:
@@ -94,6 +109,12 @@ python check_for_expression_v3.py \
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence.csv \
 '/home/lsharkey/Projects/22_ARC_Project_Home/Proteomics/Full_dataset/outputs/output_080425/protein_tsvs/*ISP2.tsv' \
 /home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MEDIA-ISP2.csv
+
+# Command used for all media (301, A3M and ISP2):
+python check_for_expression_v3.py \
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/gene_presence_absence.csv \
+'/home/lsharkey/Projects/22_ARC_Project_Home/Proteomics/Full_dataset/outputs/output_080425/protein_tsvs/*ISP2.tsv' \
+/home/buultjensa/arc_nocardia_omics/prokka_gff/128/panaroo_test_c-0.98/128_panaroo_expression_checked_MEDIA-ALL-301-A3M-ISP2.csv
 ```
 
 # antiSMASH command:
